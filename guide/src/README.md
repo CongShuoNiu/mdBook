@@ -1,4 +1,8 @@
-# Introduction
+# K8s 学习记录
+
+## Kubernetes 基本概念与组件
+
+Kubernetes（简称 K8S） 的出现是容器化技术发展的必然结果，容器化是应用程序级别的虚拟化，运行单个内核上有多个独立的用户空间实例，这些实例就是容器；容器提供了将应用程序的代码、运行时、系统工具、系统库和配置打包到一个实例中的标准方法，而且容器是共享一个内核的；由于容器技术的兴起，导致大量的容器应用出现，所以就出现了一些用来支持应用程序容器化部署和组织的容器编排技术，一些流行的开源容器编排工具有 Docker Swarm、Kubernetes 等，但是在发展过程中 Kubernetes 现在已经成为了容器编排领域事实上的一个标准了。
 
 **mdBook** is a command line tool to create books with Markdown.
 It is ideal for creating product or API documentation, tutorials, course materials or anything that requires a clean,
